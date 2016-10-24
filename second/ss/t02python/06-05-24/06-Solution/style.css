@@ -1,0 +1,269 @@
+/* 
+####################
+ for all html files 
+####################
+*/
+
+html{
+	background-color:#efefef;
+	} 
+
+body{
+	width:770px;
+	margin:0 auto;
+	padding:0;
+	background-color:#ffffff;
+	border:1px solid #aaaaaa;	
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	}
+
+#body_text{
+	padding-left:30px;
+	width:710px;
+	}
+
+#top{
+	background-image:url(./img/top.jpg);
+	height:150px;
+	margin:0;
+	color:#fff;
+	text-align:right;
+	}
+
+#language{
+	text-align:right;
+	}
+
+a	{
+	font-weight: bold;
+	}
+
+a:link{
+	font-size:14px;
+	color: #5CAD23;
+	}
+
+a:visited {
+	font-size:14px;
+	color: #5CAD23;
+	}
+
+a:active {	
+	font-size:14px;
+	color: #5CAD23;
+	}
+
+h1	{
+	margin:0;
+	}
+
+h2 {
+	height:30px;	
+	background:url(./img/h1.gif) center no-repeat;
+	padding-left:40px;
+	color:#000000;
+	font-size:18px;
+	font-family:Arial,sans-serif;
+	}	
+
+h3 	{
+	padding-left:30px;
+	color:#555555;
+	font-size:16px;
+	}
+
+p 	{
+	color: #7E7E7E;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	line-height: 150%;
+	text-align: left;
+	padding: 10px 40px 10px 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+ol 	{
+	margin-left:10px;
+	}
+	
+li 	{
+	margin:0; 
+	color:#000; 
+	width:100%;
+	color: #7E7E7E;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	border:9px;
+	}
+
+.menu{ 
+	width:770px;
+	margin:0 auto;
+	padding:0;
+	height:46px;
+	border:none;
+	}
+
+.menu ul{ 
+	border:none;
+	list-style-type:none; 
+	margin:0; 
+	padding:0;
+	color:#000; 
+	width:100%;
+	}
+
+.menu li{
+	float:left; 
+	width:110px; 
+	height:30px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border:none;
+	text-align:center;
+	font-family:Arial,sans-serif;
+	}
+
+.menu li a{
+	border:none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-decoration:none; 
+	}
+
+.menu li a:link{ 
+	border:none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.menu li a:visited{ 
+	border:none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.menu li a:hover{
+	border:none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	display:block;	
+	color:#8a7c70; 
+	width:110px;
+	background:#33aaff;
+	}
+
+.menu img{	
+	border:none;
+	}
+
+div.body_mini_title{
+	font-family: "Tahoma", "Arial";
+	}
+
+/* 
+################################
+ for index.html , index.ja.html
+################################
+*/
+
+#logo{
+	text-align:right;
+	}
+
+#logo img{
+	border-style:none;
+	}
+
+#map img{
+	border-style:none;
+	}
+
+/* 
+######################################
+ for projects.html , projects.ja.html
+######################################
+*/
+
+TD.project {
+	vertical-align:top;
+	border-right: solid;
+	border-right-width: 1px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	}
+
+/* 
+######################################
+ for members.html , members.ja.html
+######################################
+*/
+
+.table_centering{
+	text-align: center;
+	}
+table.members {
+	width: 750px;
+	color: #7E7E7E;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size:12px;
+	line-height: 150%;
+	text-align: left;
+	padding: 10px 40px 10px 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+table.members td { width: 24%;  }
+
+td img{
+	width: 90px;
+	hight: 120px;
+	}
+
+#blank1{
+	width: 400px;
+	height: 120px;
+	}
+
+#blank2{
+	width: 500px;
+	height: 120px;
+	}
+
+/* 
+######################################
+ for contactus.html , contactus.ja.html
+######################################
+*/
+
+#img1_contactus{
+	float: right;
+	}
+
+#img2_contactus{
+	float: right;
+	}
+
+/* Footer */
+div.footer {
+/* http://www.colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c5deea), color-stop(31%,#8abbd7), color-stop(100%,#066dab)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+div.footer p {
+  text-align: center;
+  color: #FFF;
+}

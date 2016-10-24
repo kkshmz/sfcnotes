@@ -1,0 +1,63 @@
+%!PS-Adobe-3.1 EPSF-3.0
+%%BoundingBox: 0 0 300 300
+
+%xandy are from the bottom
+
+/p1x 150 def
+/p1y 0 def
+
+/p2x 300 def
+/p2y 150 def
+
+/p3x 150 def
+/p3y 300 def
+
+/p4x 0 def
+/p4y 150 def
+
+/botleft{
+newpath
+1 0 1 setrgbcolor
+p1x p1y moveto
+300 0 225 0 300 75 p2x p2y curveto
+
+fill
+stroke
+}def
+
+/topleft{
+newpath
+1 0 1 setrgbcolor
+p2x p2y moveto
+300 225 225 300 p3x p3y curveto
+fill
+stroke
+}def
+
+/topright{
+newpath
+1 0 1 setrgbcolor
+p3x p3y moveto
+75 300 0 225 p4x p4y curveto
+fill
+stroke
+}def
+
+/botright{
+newpath
+1 0 1 setrgbcolor
+p4x p4y moveto
+0 75 75 0 p1x p1y curveto
+fill
+stroke
+}def
+
+/fillall{
+}
+
+botleft
+topleft
+topright
+botright
+
+showpage

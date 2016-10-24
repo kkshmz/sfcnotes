@@ -1,0 +1,29 @@
+%!
+newpath
+
+% box という名前の関数（命令の集合）を定義する
+
+/box
+{ newpath
+ 0 0 moveto
+ 90 0 lineto
+ 90 90 lineto
+ 0 90 lineto
+ closepath fill
+ 0 0 moveto
+} def
+% procedure needs to start with a slash and end with a def
+
+200 200 translate % starts the line from 200,200 not from 0,0
+0.0 setgray % set color to black
+box % call the box procedure
+
+30 30 translate
+0.5 setgray
+box
+
+30 30 translate
+0.7 setgray
+box
+
+showpage

@@ -1,0 +1,21 @@
+%!
+
+/Helvetica-BoldOblique findfont
+30 scalefont setfont
+
+newpath
+0 0 moveto
+200 200 translate
+
+0 10 360 {
+  gsave % save the graphic information, saved the information before the for arguement
+  rotate
+  0 0 moveto
+  (I Love Adobe) true charpath
+  stroke
+  grestore %read the saved graphic information
+}for
+
+% starts at 0 with increments of 10, until 360
+
+showpage
