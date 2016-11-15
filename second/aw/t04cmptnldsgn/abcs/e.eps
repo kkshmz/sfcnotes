@@ -1,23 +1,35 @@
 %!PS-Adobe-3.1 EPSF-3.0
 %%BoundingBox: 0 0 500 500
 
+newpath
+0 0 moveto
+100 0 lineto
+100 250 lineto
+0 250 lineto
+0 0 lineto
 
-
+100 0 moveto
+400 0 lineto
+400 100 lineto
+100 100 lineto
+fill
+stroke
 
 /circlebezier{
 newpath
-250 100 moveto
-400 100 325 100 400 175 400 250 curveto
-400 250 moveto
-400 325 325 400 250 400 curveto
-250 400 moveto
-175 400 100 325 100 250 curveto
-100 250 moveto
-100 175 175 100 250 100 curveto
+200 100 moveto
+%400 100 325 100 400 175 400 250 curveto
+300 250 moveto
+300 325 225 400 150 400 curveto
+150 400 moveto
+75 400 0 325 0 250 curveto
+%100 250 moveto
+%100 175 175 100 250 100 curveto
 closepath
 fill
 stroke
 }def
+
 
 circlebezier
 
