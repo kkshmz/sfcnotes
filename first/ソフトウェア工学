@@ -1,0 +1,37 @@
+ソフトウェア工学
+
+何がどうするかを数字で表すことを真の目標　pg178のソフト資料が見本
+
+目的を定量的にすること
+
+特徴と利点の違い
+バスケだと　特徴とは背が高いこと　物自体の説明＝ソフトウェアの本来の性質
+
+利点とは　バスケに向いて、ダンクできるということ　必ず外部との応用していく＝アプリケーション　利点
+
+
+is-a dog is a animal 
+
+has-a dog has a ear attributes are all has- a reference
+
+a = {
+name'taro
+age 20	
+}
+
+a has a name 
+a has a age
+a is a ____ 親を持っている
+a is a object 
+
+属性、メソッド一覧
+
+本当だったら、資本主義だったら、難しいことできるから、お金が来るならいいけど、現状として矛盾している
+
+日本だから給料が高いというのはおかしい　
+
+
+dog is a animal
+animalに出来るものはdog にはできる　　これがis a関係
+dog has a nose 
+dogの構成要素を示している全体を has a関係である。

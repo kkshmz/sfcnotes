@@ -1,0 +1,4 @@
+Resolution 0.2mm
+Supports OFF 
+Rafts ON
+Print time about 5h 37 min

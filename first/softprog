@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" lang="en"/>
+    <meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0"/>
+    <title>GPS</title>
+</head>
+<body>
+<h1>GPS Example</h1>
+
+<div id="test"></div>
+<script type="text/javascript">
+    var watchId;
+    var startTime;
+    var currentTime;
+
+    function display(pos, ptime) {
+        var a = document.getElementById("test");
+        var b = ["<ul>",
+            "<li>time: ", ptime / 1000, "</li>",
+            "<li>lat : ", pos.coords.latitude, "</li>",
+            "<li>lon: ", pos.coords.longitude, "</li>",
+            "<li>accuracy: ", pos.coords.accuracy, "</li>",
+            "</ul>"];
+        a.innerHTML = b.join('');
+    }
+
+    startTime = new Date();
+    watchId = navigator.geolocation.watchPosition(function (pos) {
+                currentTime = new Date();
+                var processingTime = currentTime - startTime;
+                display(pos, processingTime);
+                if (pos.coords.accuracy < 300 || processingTime > 15000) {
+                    console.log("end");
+                    navigator.geolocation.clearWatch(watchId);
+                }
+            }, function (e) {
+                console.log(e);
+            },
+            {enableHighAccuracy: true, timeout: 1000, maximumAge: 0});
+</script>
+</body>
+</html>
